@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5656dbc4-27f3-4775-893b-b8c7c634eef5">
+  <producedTypes>
+    <selectionType typeId="35e4996b-4ab6-419a-aa5d-6bc77ca81525" valueTypeId="a9ef2566-6dfc-479f-9d83-e7168a54481c"/>
+    <listType typeId="dca8dc1b-feb4-4b2c-9fdd-6628924ef960" valueTypeId="93dc532e-9484-4795-80d5-7ab7004fa5f8"/>
+    <managerType typeId="8bfbfb96-a46d-43a1-aac9-72f6693c916d" valueTypeId="3268734c-2717-4b05-a52e-44ed03ef7e2a"/>
+    <recordSetType typeId="6bc27bab-9a3b-4252-8a82-9b162b9df68b" valueTypeId="a7c1a12c-5175-453d-a495-a058089ff370"/>
+    <recordKeyType typeId="6cf4d76e-1a9d-4163-ab93-ad6e1d69ffa2" valueTypeId="58e32cbb-a60c-4f7d-a508-642cdb04841a"/>
+    <recordType typeId="004c33e1-8993-4dcc-aa5e-56ce9edfedc9" valueTypeId="c2d5fed9-582f-4554-afde-7047d623e389"/>
+    <extDimensionsType typeId="fa435a6a-50ab-4b5e-acea-a6f0ffa8687f" valueTypeId="8b791580-6b2d-47f9-866a-9ad246bb866d"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8aef3ecb-5a9d-4a88-83bf-64e917b6a206">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+    <extDimensionAccountingFlag>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlag>
+  </resources>
+  <resources uuid="67145433-dfef-458b-990a-d394508bb832">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlag>
+  </resources>
+</mdclass:AccountingRegister>
