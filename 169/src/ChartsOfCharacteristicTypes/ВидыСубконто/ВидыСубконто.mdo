@@ -94,8 +94,7 @@
   <createOnInput>DontUse</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <type>
-    <types>CatalogRef.Валюты</types>
-    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.Контрагенты</types>
     <types>CatalogRef.Номенклатура</types>
     <types>Date</types>
     <types>CatalogRef.Склады</types>
@@ -119,28 +118,20 @@
         <types>CatalogRef.Номенклатура</types>
       </type>
     </items>
-    <items id="4568bc7e-0b7d-42a1-8d9b-a0a547dac73e">
-      <name>Валюта</name>
-      <description>Валюта</description>
-      <code>000000002</code>
-      <type>
-        <types>CatalogRef.Валюты</types>
-      </type>
-    </items>
-    <items id="7b72529b-313c-479e-b37d-c1e05c3ac2d8">
-      <name>Организация</name>
-      <description>Организация</description>
-      <code>000000003</code>
-      <type>
-        <types>CatalogRef.Организации</types>
-      </type>
-    </items>
     <items id="9c17f7d6-c3b0-4eba-84d5-e6660fe99bc7">
       <name>Склад</name>
       <description>Склад</description>
       <code>000000004</code>
       <type>
         <types>CatalogRef.Склады</types>
+      </type>
+    </items>
+    <items id="d0f7b0de-5ae8-42dd-8574-68fbdcbf8c24">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
       </type>
     </items>
   </predefined>

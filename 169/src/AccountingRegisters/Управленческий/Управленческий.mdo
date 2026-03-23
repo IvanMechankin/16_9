@@ -18,6 +18,37 @@
   <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
   <correspondence>true</correspondence>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="d765738d-9abd-4ff8-b05c-27aabc7718f5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <dimensions uuid="afacc15b-3d83-487a-84f1-757ab27ce871">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlag>
+  </dimensions>
   <resources uuid="8aef3ecb-5a9d-4a88-83bf-64e917b6a206">
     <name>Сумма</name>
     <synonym>
@@ -53,5 +84,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlag>
+  </resources>
+  <resources uuid="79c0f54c-f3a2-4288-b45a-e22cc43a67a7">
+    <name>СуммаВал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма вал</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlag>
   </resources>
 </mdclass:AccountingRegister>

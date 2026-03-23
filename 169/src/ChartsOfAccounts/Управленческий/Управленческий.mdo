@@ -180,6 +180,9 @@
           <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
           <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
         </extDimensionTypes>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Склад</characteristicType>
+        </extDimensionTypes>
       </childItems>
       <childItems id="56803467-7777-47f8-8140-bc783543f752">
         <name>ТоварыВПути</name>
@@ -193,6 +196,11 @@
         <code>01.04</code>
         <accountType>ActivePassive</accountType>
         <order>01.04</order>
+        <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlags>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
       </childItems>
       <childItems id="eb85509a-60af-4880-b660-8c70b9158956">
         <name>ОсновноеПроизводство</name>
@@ -267,6 +275,11 @@
       <code>03</code>
       <accountType>ActivePassive</accountType>
       <order>03</order>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+        <turnover>true</turnover>
+        <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+      </extDimensionTypes>
     </items>
   </predefined>
   <editType>InDialog</editType>
@@ -278,6 +291,20 @@
     <synonym>
       <key>ru</key>
       <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="352ae00d-b437-4820-b6b9-402b9d832f3f">
+    <name>Валютный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютный</value>
     </synonym>
     <type>
       <types>Boolean</types>
