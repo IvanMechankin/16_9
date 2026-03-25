@@ -45,10 +45,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
-    <balance>true</balance>
-    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlag>
   </dimensions>
   <resources uuid="79c0f54c-f3a2-4288-b45a-e22cc43a67a7">
     <name>СуммаВал</name>
@@ -66,7 +63,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <balance>true</balance>
     <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlag>
   </resources>
   <resources uuid="8aef3ecb-5a9d-4a88-83bf-64e917b6a206">

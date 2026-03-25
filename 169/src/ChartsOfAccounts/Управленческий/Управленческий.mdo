@@ -246,6 +246,16 @@
         <code>02.02</code>
         <accountType>ActivePassive</accountType>
         <order>02.02</order>
+        <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlags>
+        <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlags>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        </extDimensionTypes>
       </childItems>
       <childItems id="2200e5b2-ef0d-4f80-bc31-d3df56983787">
         <name>КредитыИЗаймыПолученные</name>
