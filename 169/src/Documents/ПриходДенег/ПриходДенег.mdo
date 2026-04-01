@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="456fb661-51e7-49a8-b481-5e414d569ecc">
+  <producedTypes>
+    <objectType typeId="61d7dd26-0093-4721-af5b-a821376fd518" valueTypeId="3746275a-ae8e-41ab-b304-050fa585f122"/>
+    <refType typeId="f822c32c-b542-46d8-b320-da2d87eae3f5" valueTypeId="8a2209b9-0818-4c25-adb7-8d8d0afa827a"/>
+    <selectionType typeId="c179c86b-19d2-4e1f-a8a7-c7384ae3538f" valueTypeId="228e9086-5ecc-4359-ae67-6c9145b68a19"/>
+    <listType typeId="e91e8e94-5c48-4e0e-9650-0e96ab80c82a" valueTypeId="8e4936b3-7b5d-40f6-b757-a2b79fbcc436"/>
+    <managerType typeId="3c4ba241-62d9-49c7-b922-7400c6f9dd98" valueTypeId="e3f54878-df5b-417b-b64f-58de4d0f8137"/>
+  </producedTypes>
+  <name>ПриходДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриходДенег.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3889ec53-af9b-47c9-ab03-7347321ac7a0">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e12f0e73-223e-4d23-9552-10d0a49644cb">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4c86bfc5-54f0-4fb8-8a03-7e4fa677d4aa">
+    <producedTypes>
+      <objectType typeId="3c1108ba-17b1-4c41-b363-04eb35cb1458" valueTypeId="d342f7ed-b3f1-4177-a3b2-60f50c687a6c"/>
+      <rowType typeId="c4715c5d-243f-413a-a265-09598a7d37b6" valueTypeId="c47e53d0-6f7d-460e-9c37-46fe2e2e0f79"/>
+    </producedTypes>
+    <name>Расчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты</value>
+    </synonym>
+    <attributes uuid="259d142b-0a99-4611-8cbc-6704d4757a9a">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="812b5333-79fa-46af-8388-a23ef50b9ac2">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -21,4 +21,5 @@
   <content>ChartOfAccounts.Управленческий</content>
   <content>AccountingRegister.Управленческий</content>
   <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>Document.ПриходДенег</content>
 </mdclass:Subsystem>
