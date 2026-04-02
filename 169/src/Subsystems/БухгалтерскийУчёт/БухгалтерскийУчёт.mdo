@@ -22,4 +22,5 @@
   <content>AccountingRegister.Управленческий</content>
   <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
   <content>Document.ПриходДенег</content>
+  <content>Report.ПродажиТоваров</content>
 </mdclass:Subsystem>
