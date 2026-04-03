@@ -23,4 +23,5 @@
   <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
   <content>Document.ПриходДенег</content>
   <content>Report.ПродажиТоваров</content>
+  <content>Report.ЗадолженностьПокупателей</content>
 </mdclass:Subsystem>
