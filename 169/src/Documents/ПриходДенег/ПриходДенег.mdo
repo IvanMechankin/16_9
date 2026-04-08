@@ -60,10 +60,10 @@
       <objectType typeId="3c1108ba-17b1-4c41-b363-04eb35cb1458" valueTypeId="d342f7ed-b3f1-4177-a3b2-60f50c687a6c"/>
       <rowType typeId="c4715c5d-243f-413a-a265-09598a7d37b6" valueTypeId="c47e53d0-6f7d-460e-9c37-46fe2e2e0f79"/>
     </producedTypes>
-    <name>Расчеты</name>
+    <name>СписокКонтрагентов</name>
     <synonym>
       <key>ru</key>
-      <value>Расчеты</value>
+      <value>Список контрагентов</value>
     </synonym>
     <attributes uuid="259d142b-0a99-4611-8cbc-6704d4757a9a">
       <name>Контрагент</name>
@@ -84,6 +84,24 @@
       <synonym>
         <key>ru</key>
         <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1290649-b0c6-4565-bd26-ce0a2b583c74">
+      <name>СуммаВал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма вал</value>
       </synonym>
       <type>
         <types>Number</types>

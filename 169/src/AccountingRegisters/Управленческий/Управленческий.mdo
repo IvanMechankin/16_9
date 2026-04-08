@@ -17,6 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
   <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <dimensions uuid="d765738d-9abd-4ff8-b05c-27aabc7718f5">
     <name>Организация</name>
